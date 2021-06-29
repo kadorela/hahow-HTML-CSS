@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+div{
+    display: flex;
+}
+.s1{
+    width: 300px;
+    font-size: 24px;
+    margin: 10px;
+}
+.s1 li{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight:bold;
+}
+.s3{
+    color: white;
+    background: #37523d;
+}
+.s4:hover{
+    color:#37523d;
+    background: #e7eeea;
+}
+
+
+
+
+
+.s2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.s2 li{
+    width: 300px;
+    height: 462px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border: #e7eeea solid 1px;
+
+}
+
+a{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    align-items: center;
+}
+.d1{
+    color: #37523d;
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 21px;
+    padding-top: 21px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-right: #e7eeea solid 1px;
+}
+.d2{
+    color: #37523d;
+    font-weight:bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.s5{
+    width: 300px;
+    color: #37523d;
+    font-size: 26px;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: #e7eeea;
+}
+.s5:hover{
+    color:#e7eeea;
+    background: #37523d;
+}
+
+
+
